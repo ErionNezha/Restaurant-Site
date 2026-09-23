@@ -37,8 +37,8 @@ Kaq — nuk kërkon server apo build.
 
 ## Kontakti
 
-- 📞 +355 699 552 080
-- ✉️ erjonnezhaa@gmail.com
+- 📞 +355 6XX XXX XXX
+- ✉️ shembull@example.com
 - 📍 Tiranë, Shqipëri
 
 ## Licenca
@@ -75,8 +75,8 @@ That's it — no server or build needed.
 
 ## Contact
 
-- 📞 +355 699 552 080
-- ✉️ erjonnezhaa@gmail.com
+- 📞 +355 6XX XXX XXX
+- ✉️ shembull@example.com
 - 📍 Tirana, Albania
 
 ## License
