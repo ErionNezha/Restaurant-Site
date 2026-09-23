@@ -1,5 +1,7 @@
 # Restaurant-Site 🍽️
 
+Created by **Erion Nezha**
+
 Faqe restoranti me menu, galeri dhe formë porosie — dizajn elegant dhe plotësisht responsive, e përshtatur në shqip.
 
 ![Screenshot](screenshot.png)
@@ -43,7 +45,7 @@ Kaq — nuk kërkon server apo build.
 
 ## Licenca
 
-MIT — shih skedarin [LICENSE](LICENSE).
+Të gjitha të drejtat e rezervuara © 2026 Erion Nezha — shih skedarin [LICENSE](LICENSE).
 
 ---
 
@@ -81,4 +83,4 @@ That's it — no server or build needed.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+All rights reserved © 2026 Erion Nezha — see [LICENSE](LICENSE).
