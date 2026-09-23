@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faqe Restoranti — Dizajn Komplet & Responsive</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i> restoranti </a>
+    
+    <nav class="navbar">
+        <a href="#home">ballina</a>
+        <a href="#about">rreth nesh</a>
+        <a href="#popular">të preferuarat</a>
+        <a href="#menu">menuja</a>
+        <a href="#order">porosit</a>
+        <a href="#blogs">blogu</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+    
+</header>
+
+<!-- header section ends  -->
+
+<!-- search-form  -->
+
+<section class="search-form-container">
+
+    <form action="">
+        <input type="search" name="" placeholder="kërko këtu..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</section>
+
+<!-- shopping-cart section  -->
+
+<section class="shopping-cart-container">
+
+    <div class="products-container">
+
+        <h3 class="title">produktet tuaja</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-1.png" alt="">
+                <div class="content">
+                    <h3>ushqim i shijshëm</h3>
+                    <span> sasia : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> çmimi : </span>
+                    <span class="price"> $40.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3>ushqim i shijshëm</h3>
+                    <span> sasia : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> çmimi : </span>
+                    <span class="price"> $40.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-3.png" alt="">
+                <div class="content">
+                    <h3>ushqim i shijshëm</h3>
+                    <span> sasia : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> çmimi : </span>
+                    <span class="price"> $40.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-4.png" alt="">
+                <div class="content">
+                    <h3>ushqim i shijshëm</h3>
+                    <span> sasia : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> çmimi : </span>
+                    <span class="price"> $40.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-5.png" alt="">
+                <div class="content">
+                    <h3>ushqim i shijshëm</h3>
+                    <span> sasia : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> çmimi : </span>
+                    <span class="price"> $40.00 </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="cart-total">
+
+        <h3 class="title"> totali i shportës </h3>
+
+        <div class="box">
+
+            <h3 class="subtotal"> nëntotali : <span>$200</span> </h3>
+            <h3 class="total"> totali : <span>$200</span> </h3>
+
+            <a href="#" class="btn">vazhdo te pagesa</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- login-form  -->
+
+<div class="login-form-container">
+
+    <form action="">
+        <h3>forma e hyrjes</h3>
+        <input type="email" name="" placeholder="shkruaj emailin tënd" id="" class="box">
+        <input type="password" name="" placeholder="shkruaj fjalëkalimin tënd" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">më mbaj mend</label>
+        </div>
+        <input type="submit" value="hyr tani" class="btn">
+        <p>harruat fjalëkalimin? <a href="#">kliko këtu</a></p>
+        <p>nuk ke llogari? <a href="#">krijo një</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>mirësevini</span>
+        <h3>erëza të ndryshme për shije të ndryshme 😋</h3>
+        <p>Ushqim i freskët dhe i shijshëm, i përgatitur me përbërës cilësorë çdo ditë, për t'ju sjellë shijen më të mirë.</p>
+        <a href="#" class="btn">porosit tani</a>
+    </div>
+
+    <div class="image">
+        <img src="image/home-img.png" alt="" class="home-img">
+        <img src="image/home-parallax-img.png" alt="" class="home-parallax-img">
+    </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="image/cat-1.png" alt="">
+        <h3>kombo</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-2.png" alt="">
+        <h3>pica</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-3.png" alt="">
+        <h3>burger</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-4.png" alt="">
+        <h3>pulë</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-5.png" alt="">
+        <h3>darkë</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-6.png" alt="">
+        <h3>kafe</h3>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/about-img.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>pse të na zgjidhni?</span>
+        <h3 class="title">çfarë e bën ushqimin tonë kaq të shijshëm!</h3>
+        <p>Ne përdorim përbërës të freskët dhe receta autentike për të sjellë në tryezën tuaj shijen më të mirë, çdo ditë.</p>
+        <a href="#" class="btn">lexo më shumë</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="image/serv-1.png" alt="">
+                <h3>dërgesë e shpejtë</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-2.png" alt="">
+                <h3>ushqim i freskët</h3>
+            </div>   
+            <div class="icons">
+                <img src="image/serv-3.png" alt="">
+                <h3>cilësia më e mirë</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-4.png" alt="">
+                <h3>mbështetje 24/7</h3>
+            </div>           
+        </div>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <div class="heading">
+        <span>të preferuarat</span>
+        <h3>pjatat tona speciale</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-4.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-5.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-6.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-7.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-8.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="row-banner">
+        <div class="content">
+            <span>djathë i dyfishtë</span>
+            <h3>burger</h3>
+            <p>me coca-cola dhe patate</p>
+            <a href="#" class="btn">porosit tani</a>
+        </div>
+    </div>
+
+    <div class="grid-banner">
+        <div class="grid">
+            <img src="image/banner-1.png" alt="">
+            <div class="content">
+                <span>ofertë speciale</span>
+                <h3>deri në 50% zbritje</h3>
+                <a href="#" class="btn">porosit tani</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="image/banner-2.png" alt="">
+            <div class="content center">
+                <span>ofertë speciale</span>
+                <h3>deri në 25% ekstra</h3>
+                <a href="#" class="btn">porosit tani</a>
+            </div>
+        </div>
+        <div class="grid">        
+            <img src="image/banner-3.png" alt="">
+            <div class="content">
+                <span>ofertë e kufizuar</span>
+                <h3>100% kthim parash</h3>
+                <a href="#" class="btn">porosit tani</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <div class="heading">
+        <span>menuja jonë</span>
+        <h3>pjatat tona më të mira</h3>
+    </div>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="image/menu-1.png" alt="">
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-2.png" alt="">
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-3.png" alt="">
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-4.png" alt="">
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-5.png" alt="">
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-6.png" alt="">
+            <div class="content">
+                <h3>ushqim i shijshëm</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <div class="heading">
+        <span>porosit tani</span>
+        <h3>dërgesa më e shpejtë në shtëpi</h3>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="image/icon-1.png" alt="">
+            <h3>7:00 - 22:30</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-2.png" alt="">
+            <h3>+355 699 552 080</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-3.png" alt="">
+            <h3>Tiranë, Shqipëri</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>emri yt</span>
+                <input type="text" placeholder="emri i klientit" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>numri yt</span>
+                <input type="number" placeholder="numri i klientit" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>porosia jote</span>
+                <input type="text" placeholder="ushqimi që dëshiron" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>sa</span>
+                <input type="number" placeholder="numri i porosive" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>detajet tuaja</span>
+                <input type="text" placeholder="mesazhi yt" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>koha e marrjes</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <textarea placeholder="adresa jote" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="inputBox">
+                <iframe class="map" src="https://maps.google.com/maps?q=Tirana,%20Albania&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <input type="submit" value="vazhdo me porosinë" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>blogjet tona</span>
+        <h3>historitë tona ditore</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21 maj 2021 </h3>
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> ushqim / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pica  </a>
+                </div>
+                <h3>titulli i blogut këtu...</h3>
+                <p>Historitë tona nga kuzhina — receta, sekrete dhe momente të shijshme që na frymëzojnë çdo ditë.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21 maj 2021 </h3>
+                <img src="image/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> ushqim / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pica  </a>
+                </div>
+                <h3>titulli i blogut këtu...</h3>
+                <p>Historitë tona nga kuzhina — receta, sekrete dhe momente të shijshme që na frymëzojnë çdo ditë.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21 maj 2021 </h3>
+                <img src="image/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> ushqim / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pica  </a>
+                </div>
+                <h3>titulli i blogut këtu...</h3>
+                <p>Historitë tona nga kuzhina — receta, sekrete dhe momente të shijshme që na frymëzojnë çdo ditë.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="newsletter">
+        <h3>gazeta</h3>
+        <form action="">
+            <input type="email" name="" placeholder="shkruaj emailin tënd" id="">
+            <input type="submit" value="abonohu">
+        </form>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>menuja jonë</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> pica</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> burger</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> pulë</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> makarona</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> dhe më shumë...</a>
+        </div>
+
+        <div class="box">
+            <h3>lidhje të shpejta</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> ballina</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> rreth nesh</a>
+            <a href="#popular"> <i class="fas fa-arrow-right"></i> të preferuarat</a>
+            <a href="#menu"> <i class="fas fa-arrow-right"></i> menuja</a>
+            <a href="#order"> <i class="fas fa-arrow-right"></i> porosit</a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogu</a>
+        </div>
+
+        <div class="box">
+            <h3>lidhje shtesë</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> porosia ime</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> llogaria ime</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> të preferuarat e mia</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> kushtet e përdorimit</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> politika e privatësisë</a>
+        </div>
+
+        <div class="box">
+            <h3>orari i hapjes</h3>
+            <p>e hënë : 7:00 - 22:00</p>
+            <p>e martë : 7:00 - 22:00</p>
+            <p>e mërkurë : 7:00 - 22:00</p>
+            <p>e premte : 7:00 - 22:00</p>
+            <p>e shtuna dhe e diela mbyllur</p>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> krijuar nga <span>Erion Nezha</span> | të gjitha të drejtat e rezervuara! </div>
+        
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
